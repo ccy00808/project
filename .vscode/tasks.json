@@ -1,0 +1,30 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build main",
+            "type": "shell",
+            "command": "g++",
+            "args": [    //编译参数列表
+                "-g", // 加上-g可以断点调试
+                "main.cpp",
+                "-o",
+                "main.out"
+            ]
+        },
+        {
+            "label": "build interface",
+            "type": "shell",
+            "command": "${workspaceFolder}/interface/make",
+            "args": []
+        },
+        {
+            "label": "build project",
+            "type": "shell",
+            "command": "sh -x project.bat",
+            "args": []
+        }
+    ]
+}
