@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/handler.h
+memory
+-
+
+/home/ccy00808/design_patterns/chain_responsibility/main.cpp
+handler.h
+/home/ccy00808/design_patterns/chain_responsibility/handler.h
+memory
+-
+

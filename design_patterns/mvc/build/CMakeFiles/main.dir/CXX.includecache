@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/control.h
+student.h
+../include/student.h
+view.h
+../include/view.h
+
+../include/student.h
+string
+-
+
+../include/view.h
+string
+-
+
+/home/ccy00808/design_patterns/mvc/main.cpp
+view.h
+/home/ccy00808/design_patterns/mvc/view.h
+control.h
+/home/ccy00808/design_patterns/mvc/control.h
+student.h
+/home/ccy00808/design_patterns/mvc/student.h
+

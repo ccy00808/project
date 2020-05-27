@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblightcmd.a  CMakeFiles/lightcmd.dir/command.cpp.o CMakeFiles/lightcmd.dir/invoker.cpp.o CMakeFiles/lightcmd.dir/receiver.cpp.o
+/usr/bin/ranlib liblightcmd.a

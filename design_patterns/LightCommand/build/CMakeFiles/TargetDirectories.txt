@@ -1,0 +1,6 @@
+/home/ccy00808/design_patterns/LightCommand/build/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/design_patterns/LightCommand/build/CMakeFiles/edit_cache.dir
+/home/ccy00808/design_patterns/LightCommand/build/CMakeFiles/light.dir
+/home/ccy00808/design_patterns/LightCommand/build/src/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/design_patterns/LightCommand/build/src/CMakeFiles/edit_cache.dir
+/home/ccy00808/design_patterns/LightCommand/build/src/CMakeFiles/lightcmd.dir

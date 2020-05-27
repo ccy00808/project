@@ -40,6 +40,11 @@
         "list": "cpp",
         "mutex": "cpp",
         "system_error": "cpp",
-        "condition_variable": "cpp"
+        "condition_variable": "cpp",
+        "atomic": "cpp",
+        "forward_list": "cpp",
+        "unordered_set": "cpp",
+        "iomanip": "cpp",
+        "string": "cpp"
     }
 }

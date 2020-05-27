@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/command.h
+memory
+-
+unordered_map
+-
+receiver.h
+../include/receiver.h
+
+../include/invoker.h
+string
+-
+memory
+-
+command.h
+../include/command.h
+
+../include/receiver.h
+memory
+-
+
+/home/ccy00808/design_patterns/LightCommand/src/command.cpp
+command.h
+/home/ccy00808/design_patterns/LightCommand/src/command.h
+iostream
+-
+
+/home/ccy00808/design_patterns/LightCommand/src/invoker.cpp
+invoker.h
+/home/ccy00808/design_patterns/LightCommand/src/invoker.h
+iostream
+-
+

@@ -99,7 +99,7 @@ void TestFunction()
 
     int resu = TestFun(CompareV, 100, 101);
     std::cout << resu << " result\n";
-    int res1= TestFun([](int a, int b) {return a < b ? a : b;}, 100, 101);
+    int res1=  ([](int a, int b) {return a < b ? a : b;}, 100, 101);
 
     std::cout << res1 << " res1\n";
 }

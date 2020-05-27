@@ -15,6 +15,8 @@ message(STATUS "this is val OUTPUT_NAME:"${OUTPUT_VALUE})
 
 include_directories(../func)
 
+link_directories(floder)
+
 target_link_libraries(test
     PRIVATE
         hello

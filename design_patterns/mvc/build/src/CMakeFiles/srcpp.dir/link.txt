@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsrcpp.a  CMakeFiles/srcpp.dir/control.cpp.o CMakeFiles/srcpp.dir/student.cpp.o CMakeFiles/srcpp.dir/view.cpp.o
+/usr/bin/ranlib libsrcpp.a

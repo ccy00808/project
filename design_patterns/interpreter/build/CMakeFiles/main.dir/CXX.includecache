@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/context.h
+string
+-
+unordered_map
+-
+
+../include/expression.h
+context.h
+../include/context.h
+
+/home/ccy00808/design_patterns/interpreter/main.cpp
+context.h
+/home/ccy00808/design_patterns/interpreter/context.h
+expression.h
+/home/ccy00808/design_patterns/interpreter/expression.h
+iostream
+-
+

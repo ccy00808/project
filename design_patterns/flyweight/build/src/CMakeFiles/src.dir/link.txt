@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsrc.a  CMakeFiles/src.dir/charclass.cpp.o CMakeFiles/src.dir/flyweightpxy.cpp.o CMakeFiles/src.dir/theme.cpp.o
+/usr/bin/ranlib libsrc.a

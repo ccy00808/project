@@ -1,0 +1,6 @@
+/home/ccy00808/cpractice/build/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/cpractice/build/CMakeFiles/edit_cache.dir
+/home/ccy00808/cpractice/build/CMakeFiles/main.dir
+/home/ccy00808/cpractice/build/src/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/cpractice/build/src/CMakeFiles/edit_cache.dir
+/home/ccy00808/cpractice/build/src/CMakeFiles/test.dir

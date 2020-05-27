@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/charclass.h
+theme.h
+../include/theme.h
+string
+-
+
+../include/flyweightpxy.h
+unordered_map
+-
+charclass.h
+../include/charclass.h
+theme.h
+../include/theme.h
+
+../include/theme.h
+memory
+-
+
+/home/ccy00808/design_patterns/flyweight/src/flyweightpxy.cpp
+flyweightpxy.h
+/home/ccy00808/design_patterns/flyweight/src/flyweightpxy.h
+memory
+-
+
