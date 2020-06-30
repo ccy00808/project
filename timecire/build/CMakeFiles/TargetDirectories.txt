@@ -1,0 +1,6 @@
+/home/ccy00808/project/timecire/build/CMakeFiles/edit_cache.dir
+/home/ccy00808/project/timecire/build/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/project/timecire/build/CMakeFiles/main.dir
+/home/ccy00808/project/timecire/build/src/CMakeFiles/edit_cache.dir
+/home/ccy00808/project/timecire/build/src/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/project/timecire/build/src/CMakeFiles/timew.dir

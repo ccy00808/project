@@ -1,0 +1,5 @@
+/home/ccy00808/project/googletest/build/thirdparty/googletest-release-1.10.0/googlemock/CMakeFiles/gmock.dir
+/home/ccy00808/project/googletest/build/thirdparty/googletest-release-1.10.0/googlemock/CMakeFiles/gmock_main.dir
+/home/ccy00808/project/googletest/build/test/CMakeFiles/googletest.dir
+/home/ccy00808/project/googletest/build/thirdparty/googletest-release-1.10.0/googletest/CMakeFiles/gtest.dir
+/home/ccy00808/project/googletest/build/thirdparty/googletest-release-1.10.0/googletest/CMakeFiles/gtest_main.dir

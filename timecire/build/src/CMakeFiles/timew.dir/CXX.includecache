@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/timewheel.h
+functional
+-
+list
+-
+
+/home/ccy00808/project/timecire/src/timewheel.cpp
+timewheel.h
+/home/ccy00808/project/timecire/src/timewheel.h
+sys/time.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+
