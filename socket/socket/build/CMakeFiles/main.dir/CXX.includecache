@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ccy00808/project/socket/sockservice.cpp
+arpa/inet.h
+-
+sys/socket.h
+-
+stdio.h
+-
+error.h
+-
+fcntl.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+netinet/in.h
+-
+iostream
+-
+

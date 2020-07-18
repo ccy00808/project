@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/rwlock.h
+mutex
+-
+condition_variable
+-
+
+/home/ccy00808/project/lock/src/rwlock.cpp
+rwlock.h
+/home/ccy00808/project/lock/src/rwlock.h
+

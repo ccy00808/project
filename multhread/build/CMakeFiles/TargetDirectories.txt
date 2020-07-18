@@ -1,0 +1,6 @@
+/home/ccy00808/project/multhread/build/CMakeFiles/edit_cache.dir
+/home/ccy00808/project/multhread/build/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/project/multhread/build/CMakeFiles/main.dir
+/home/ccy00808/project/multhread/build/src/CMakeFiles/edit_cache.dir
+/home/ccy00808/project/multhread/build/src/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/project/multhread/build/src/CMakeFiles/multhread.dir

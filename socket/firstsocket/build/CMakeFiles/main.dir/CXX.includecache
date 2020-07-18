@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ccy00808/socket/firstsocket/main.cpp
+sys/socket.h
+-
+arpa/inet.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+unistd.h
+-
+

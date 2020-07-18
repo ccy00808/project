@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblock.a  CMakeFiles/lock.dir/rwlock.cpp.o
+/usr/bin/ranlib liblock.a

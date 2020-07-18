@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libmulthread.so -o libmulthread.so CMakeFiles/multhread.dir/multhread.cpp.o CMakeFiles/multhread.dir/rwlock.cpp.o 

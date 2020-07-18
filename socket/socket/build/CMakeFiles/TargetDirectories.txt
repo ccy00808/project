@@ -1,0 +1,3 @@
+/home/ccy00808/project/socket/build/CMakeFiles/edit_cache.dir
+/home/ccy00808/project/socket/build/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/project/socket/build/CMakeFiles/main.dir

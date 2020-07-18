@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/multhread.h
+thread
+-
+iostream
+-
+
+/home/ccy00808/project/multhread/main.cpp
+multhread.h
+/home/ccy00808/project/multhread/multhread.h
+thread
+-
+vector
+-
+

@@ -1,0 +1,5 @@
+/home/ccy00808/project/lock/build/CMakeFiles/edit_cache.dir
+/home/ccy00808/project/lock/build/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/project/lock/build/src/CMakeFiles/edit_cache.dir
+/home/ccy00808/project/lock/build/src/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/project/lock/build/src/CMakeFiles/lock.dir

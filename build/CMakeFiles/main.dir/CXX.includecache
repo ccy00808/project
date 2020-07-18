@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ccy00808/project/main.cpp
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+assert.h
+-
+stddef.h
+-
+string.h
+-
+stdint.h
+-
+

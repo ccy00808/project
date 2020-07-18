@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/main.dir/sockservice.cpp.o  -o main -rdynamic 

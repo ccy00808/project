@@ -1,0 +1,3 @@
+/home/ccy00808/socket/firstsocket/build/CMakeFiles/edit_cache.dir
+/home/ccy00808/socket/firstsocket/build/CMakeFiles/rebuild_cache.dir
+/home/ccy00808/socket/firstsocket/build/CMakeFiles/main.dir
