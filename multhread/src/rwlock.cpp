@@ -54,3 +54,45 @@ WriteLockGuard::~WriteLockGuard()
 {
     m_rwlock.WriteUnlock();
 }
+
+void HRowConversionL(int **table, int len, int row, int low, int& val)
+{
+    int tmp = val;
+    val = *(*(table + row) + len - low - 1);
+    *(*(table + row) + len - low - 1) = tmp;
+}
+
+void RLConversionRow(int **table, int len, int row, int low, int& val)
+{
+    int tmp = val;
+    val = *(*(table + len - 1 - low) + len - 1 - low);
+    *(*(table + len - 1 - low) + len - 1 - low) = tmp;
+}
+
+void LLConversionLeft(int **table, int len, int row, int low, int& val)
+{
+    int tmp = val;
+    val = *(*(table + len - row) + low);
+    *(*(table + len - row) + low) = tmp;
+
+}
+
+void LLConversionHRow(int **table, int len, int row, int low, int& val)
+{
+    *(*(table + row) + low) = val;
+}
+
+
+int** GetCircle90Table(int **table, int len)
+{
+    for (int i = 0; i < len; ++i) {
+        for (int j = i; j < len - i; ++j) {
+            int tmp = *(*(table + i) + j);
+            HRowConversionL(table, len, i, j, tmp);
+            RLConversionRow(table, len, i, j, tmp);
+            LLConversionLeft(table, len, i, j, tmp);
+            LLConversionHRow(table, len, i, j, tmp);
+        }
+    }
+    return table;
+}

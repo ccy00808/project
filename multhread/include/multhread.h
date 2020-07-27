@@ -14,6 +14,12 @@ void ThreadFunc4();
 void ThreadFunc5();
 
 void ThreadFunc6();
+void TestFuncConv();
+void TestOnceFlagThread();
+void TestFuture();
+void TestPromiseThread();
+void TestPackTaskThread();
+void TestShareFuture();
 
 class MyThread {
 public:
@@ -39,5 +45,7 @@ private:
 };
 
 void ThreadFunc7();
+
+void TestDeadLock();
 
 #endif
