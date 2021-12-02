@@ -6,6 +6,7 @@
 #include <string.h>
 #include <stdint.h>
 
+
 union test {
     short value;
     char va[2];
